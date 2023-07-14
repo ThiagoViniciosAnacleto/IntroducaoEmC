@@ -1,4 +1,16 @@
-//variaveis = dados
+//Bibliotecas
+
+locale.h // troca de idioma
+math.h // habilita uso de funções matematicas
+stdbool.h // habilita o tipo de dado booleano
+stdio.h // entrada e saida de dados
+stdlib.h // geração de números aleatórios | Alocação dinâmica de Memória
+string.h // fornece uma série de funções para tratar cadeias de caracteres
+time.h // permite acessar o relógio do computador
+
+//------------------------------------////------------------------------------////-------------------------//
+
+//Variáveis = dados
 
 int n = 10; //adiciona um valor inteiro (sem casas decimais)
 float n2 = 9.2; //adiciona um valor real ( com casas decimais)
@@ -9,7 +21,7 @@ double n3 = 10.2334; //adiciona um valor real ( com casas decimais ) porém com 
 //------------------------------------////------------------------------------////-------------------------//
 
 printf //exibe o conteudo discriminado
-scanf //seta a variavel a partir do dado discriminado
+scanf //seta a variavel a partir do dado discriminado - DEPENDE DA EXISTENTE DE 1 OU + VARIAVEIS PARA ARMAZENAR OS DADOS
 
 //------------------------------------////------------------------------------////-------------------------//
 
@@ -51,3 +63,5 @@ utiliza-se %f // para double (numero real com dupla precisão)
 // o <= significa menor ou igual
 // o >= significa maior ou igual
 // o != significa diferente ou igual
+
+//------------------------------------////------------------------------------////-------------------------//
